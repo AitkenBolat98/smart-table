@@ -43,7 +43,7 @@ function render(action) {
     result = applyFiltering(result,state,action);
     result = applySorting(result,state,action);
     result = applyPagination(result, state, action);
-
+    console.log(state);
     sampleTable.render(result)
 }
 
